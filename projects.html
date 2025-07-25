@@ -1,47 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sushil Ammanaghatta Shivakumar</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-  <header>
-    <h1>Sushil Ammanaghatta Shivakumar</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="personal.html">Personal</a></li>
-
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <section id="projects">
-        <h1>Projects</h1>
+<main>
+  <section id="projects">
+    <h1>Projects</h1>
+    <ul>
+      <li>
+        <h3>Master’s Thesis – Generative Model for Video Montage Creation</h3>
+        <p>This research proposes a generative approach for video montage creation by aligning textual input with video representations. Using Unmasked Teacher (UMT) for encoding and GPT-based autoregression, the model predicts semantically meaningful video embeddings. It achieved state-of-the-art performance on the VSPD dataset in terms of IoU, UMS, and SMS scores.</p>
+        <h4>Technologies Used:</h4>
         <ul>
-            <li>
-                <h3>Training Noisy Real vs Generated Images for Attribute Classification</h3>
-                <p>This project involves finding and downloading images based on specific attributes, We'll compare the performance of CLIP model trained on these generated images by Stable Diffusion with those trained on real ones. </p>
-                <h4>Technologies Used:</h4>
-                <ul>
-                  <li>Pytorch, Python</li>
-                </ul>
-              </li>
-          <li>
-            <h3>Personality Prediction Using Social Media</h3>
-            <p>Build a web application that can be linked with Facebook. It analyzes personality traits and Big 5 model to predict the personality of a user.</p>
-            <h4>Technologies Used:</h4>
-            <ul>
-              <li>NLP, HTML, PHP, Machine Learning, SQL</li>
-            </ul>
-          </li>
+          <li>Python, PyTorch, HuggingFace Transformers, SLURM</li>
         </ul>
-      </section>  </main>
-</body>
-</html>
+      </li>
+
+      <li>
+        <h3>Training Noisy Real vs Generated Images for Attribute Classification</h3>
+        <p>This project involves finding and downloading images based on specific attributes. We compared the performance of the OpenCLIP model trained on real noisy images and synthetic images generated using Stable Diffusion. The study highlights how noisy real data leads to better generalization compared to synthetic data.</p>
+        <h4>Technologies Used:</h4>
+        <ul>
+          <li>PyTorch, Stable Diffusion, OpenCLIP, Python</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>6sense – Multimodal Conversational AI for the Visually Impaired</h3>
+        <p>Built during the <strong>Tech: Europe Karlsruhe AI Hackathon</strong> (Runner-up), 6sense is a real-time voice-based AI assistant that combines computer vision and LLMs to assist visually impaired users. It enables navigation and document understanding through speech. It integrates Mistral AI for reasoning, ElevenLabs for speech synthesis, and depth estimation, OCR, and object recognition models hosted on Runpod.</p>
+        <h4>Technologies Used:</h4>
+        <ul>
+          <li>Mistral AI, ElevenLabs, Python, Runpod</li>
+        </ul>
+      </li>
+
+      <li>
+        <h3>Personality Prediction Using Social Media</h3>
+        <p>Built a web application that connects with Facebook and predicts a user’s personality using the Big Five model, based on their social media activity.</p>
+        <h4>Technologies Used:</h4>
+        <ul>
+          <li>NLP, HTML, PHP, Machine Learning, SQL</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</main>
